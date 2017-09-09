@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/myproject1">
+        <exclude pattern="/apps/myproject1/install" />
+    </filter>
+    <filter root="/apps/sling" />
+    <filter root="/etc/designs/myproject1"/>
+</workspaceFilter>
