@@ -34,7 +34,7 @@ import org.slf4j.LoggerFactory;
  * Simple servlet filter component that logs incoming requests.
  */
 @SlingFilter(order = -700, scope = SlingFilterScope.REQUEST)
-public class LoggingFilter implements Filter {
+public class LoggingFilter2 implements Filter {
 
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
